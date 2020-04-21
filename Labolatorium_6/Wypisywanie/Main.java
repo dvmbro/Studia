@@ -1,7 +1,5 @@
 package Labolatorium_6.Wypisywanie;
 
-import Labolatorium_5.Samochod;
-
 public class Main  {
     public static void main(String[] args) {
 
