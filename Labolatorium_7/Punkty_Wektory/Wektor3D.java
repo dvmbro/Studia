@@ -15,17 +15,17 @@ public class Wektor3D extends Punkt3D{
 
     Double getx2 ()
     {
-        return this.x2;
+        return x2;
     }
 
     Double gety2 ()
     {
-        return this.y2;
+        return y2;
     }
 
     Double getz2 ()
     {
-        return this.z2;
+        return z2;
     }
 
 }

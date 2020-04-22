@@ -13,12 +13,12 @@ public class Wektor2D extends Punkt2D{
 
     Double getx2 ()
     {
-        return this.x2;
+        return x2;
     }
 
     Double gety2 ()
     {
-        return this.y2;
+        return y2;
     }
 
 }

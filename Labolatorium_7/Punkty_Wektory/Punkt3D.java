@@ -13,7 +13,7 @@ public class Punkt3D extends Punkt2D{
 
     Double getZ ()
     {
-        return this.z;
+        return z;
     }
 
 }

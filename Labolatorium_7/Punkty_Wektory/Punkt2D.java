@@ -13,12 +13,12 @@ public class Punkt2D {
 
     Double getX()
     {
-        return this.x;
+        return x;
     }
 
     Double getY()
     {
-        return this.y;
+        return y;
     }
 
 }
