@@ -3,11 +3,10 @@ package Labolatorium_8.matematyka;
 public class UłamekZwykły {
 
 
-    int licznik;
-    int mianownik;
+    Integer licznik;
+    Integer mianownik;
     static int ileUłamków = 0;
     static String symbol = "/" ;
-
 
     UłamekZwykły(int licznik, int mianownik)
     {
@@ -31,5 +30,18 @@ public class UłamekZwykły {
     public void getInfo()
     {
         System.out.print(this.getLicznik()+symbol+this.getMianownik());
+    }
+
+
+
+    public class UłamekDziesiętny
+    {
+        float dziesietny;
+
+        UłamekDziesiętny(UłamekZwykły a)
+        {
+            this.dziesietny = (float)a.getLicznik() / (float)a.getMianownik();
+        }
+
     }
 }

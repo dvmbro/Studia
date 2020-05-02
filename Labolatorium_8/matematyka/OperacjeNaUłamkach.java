@@ -46,4 +46,33 @@ public class OperacjeNaUłamkach {
         wynik.getInfo();
     }
 
+    static void pomnóżUłamki(UłamekZwykły a, UłamekZwykły b)
+    {
+        int x;
+        int y;
+        x = a.getLicznik() * b.getLicznik();
+        y = a.getMianownik() * b.getMianownik();
+        UłamekZwykły wynik = new UłamekZwykły(x,y);
+        a.getInfo();
+        System.out.print(" * ");
+        b.getInfo();
+        System.out.print(" = ");
+        wynik.getInfo();
+    }
+
+    static void podzielUłamki(UłamekZwykły a, UłamekZwykły b)
+    {
+        int x;
+        int y;
+
+        x = a.getLicznik() * b.getMianownik();
+        y = a.getMianownik() * b.getLicznik();
+
+        UłamekZwykły wynik = new UłamekZwykły(x,y);
+        a.getInfo();
+        System.out.print(" / ");
+        b.getInfo();
+        System.out.print(" = ");
+        wynik.getInfo();
+    }
 }
