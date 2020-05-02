@@ -24,16 +24,16 @@ public class Main {
         System.out.println();
 
         System.out.print("Dodawanie u1 i u2 : ");
-        xOperacjeNaUłamkach.dodajUłamki(u1,u2);
+        OperacjeNaUłamkach.dodajUłamki(u1,u2);
         System.out.println();
         System.out.print("Odejmowanie u2 i c : ");
-        xOperacjeNaUłamkach.odejmijUłamki(u2,u3);
+        OperacjeNaUłamkach.odejmijUłamki(u2,u3);
         System.out.println();
         System.out.print("Mnożenie c i u4 : ");
-        xOperacjeNaUłamkach.pomnóżUłamki(u3,u4);
+        OperacjeNaUłamkach.pomnóżUłamki(u3,u4);
         System.out.println();
         System.out.print("Dzielenie c i u2 : ");
-        xOperacjeNaUłamkach.podzielUłamki(u3,u2);
+        OperacjeNaUłamkach.podzielUłamki(u3,u2);
         System.out.println();
 
         UłamekZwykły.UłamekDziesiętny aDzies = u1.new UłamekDziesiętny(u1);

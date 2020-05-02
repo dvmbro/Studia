@@ -1,6 +1,6 @@
 package Labolatorium_8.matematyka;
 
-public class xOperacjeNaUłamkach {
+public class OperacjeNaUłamkach {
 
     static void dodajUłamki(UłamekZwykły a, UłamekZwykły b)
     {
