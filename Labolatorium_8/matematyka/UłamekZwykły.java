@@ -36,12 +36,11 @@ public class UłamekZwykły {
 
     public class UłamekDziesiętny
     {
-        float dziesietny;
+        double dziesietny;
 
         UłamekDziesiętny(UłamekZwykły a)
         {
-            this.dziesietny = (float)a.getLicznik() / (float)a.getMianownik();
+            this.dziesietny = (double)a.getLicznik() / (double)a.getMianownik();
         }
-
     }
 }
