@@ -5,7 +5,7 @@ public class UłamekZwykły {
 
     int licznik;
     int mianownik;
-    static int ileUłamków;
+    static int ileUłamków = 0;
     static String symbol = "/" ;
 
 
@@ -30,6 +30,6 @@ public class UłamekZwykły {
 
     public void getInfo()
     {
-        System.out.println(this.getLicznik()+symbol+this.getMianownik());
+        System.out.print(this.getLicznik()+symbol+this.getMianownik());
     }
 }
