@@ -6,7 +6,7 @@ public class Osoba {
     String nazwisko;
     int wiek;
     int wzrost;
-    double waga;
+    Double waga;
 
     public Osoba(String imie, String nazwisko, int wiek, int wzrost, double waga) {
         this.imie = imie;
