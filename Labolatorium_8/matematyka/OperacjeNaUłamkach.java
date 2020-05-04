@@ -30,7 +30,7 @@ public class OperacjeNaUłamkach {
         int y;
         if(a.getMianownik() == b.getMianownik())
         {
-            x = a.getLicznik() + b.getLicznik();
+            x = a.getLicznik() - b.getLicznik();
             y = a.getMianownik();
         }
         else
